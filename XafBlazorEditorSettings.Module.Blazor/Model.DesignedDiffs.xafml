@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application>
+  <SchemaModules>
+    <SchemaModule Name="SystemModule" Version="20.2.4.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <DetailView Id="Customer_DetailView">
+      <Items>
+        <PropertyEditor Id="CreatedOn" PropertyEditorType="XafBlazorEditorSettings.Module.Blazor.Editors.CustomDateTimePropertyEditor" />
+      </Items>
+    </DetailView>
+  </Views>
+</Application>
